@@ -11,7 +11,7 @@ export default function Header() {
                 <Row className="top-row">
                     <Navbar.Brand>
                         <div className="title">
-                            <Nav.Link exact as={NavLink} to="/">TODO</Nav.Link>
+                            <Nav.Link exact as={NavLink} to="/">Jashon Brown</Nav.Link>
                         </div>
                     </Navbar.Brand>
                 </Row>
