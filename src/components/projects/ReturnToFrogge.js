@@ -2,9 +2,7 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from "../ProjectWebGLCard";
-import ProjectYoutubeEmbedCard from "../ProjectYoutubeEmbedCard";
 import ItchDownload from "../ItchDownload";
 
 export default function ReturnToFrogge() {
@@ -15,23 +13,26 @@ export default function ReturnToFrogge() {
                 <Col md={9}>
 
                     {/* ------ Row 1 ------ */}
-                    <Row>
-                        <ProjectTextCard>
-                            <h2>Bills Bussin' Buffet</h2>
-                            <h5>Status: Released (2022)</h5>
-                            <br />
-                            <h3>Summary</h3>
-                            <p>
-                                Our submission for Kiwi Jam 2022
-                            </p>
-                        </ProjectTextCard>
-                    </Row>
+                    <ProjectTextCard>
+                        <h2>Return to Frogge</h2>
+                        <h5>Status: Released (2022)</h5>
+                        <br />
+                        <h3>Summary</h3>
+                        <p>
+                            As a farewell to our old game studio (we ran out of funding RIP), a number of us got together and ran our own game jam.
+                        </p>
+                        <p>
+                            The theme was <i>"Reversal"</i> so we reversed the story of the frog prince.
+                            We created a bullet hell game where as a frog, you must deflect kisses being shot at you by princesses carried by simp knights.
+                        </p>
+                        <p>
+                            We ran the event over a weekend but we didn't finish our game as everyone was busy.
+                        </p>
+                    </ProjectTextCard>
 
                     {/* ------ Row 2 ------ */}
 
-                    <Row>
-                        <ProjectWebGLCard url="https://itch.io/embed-upload/6410898?color=333333" width="960" height="650"/>
-                    </Row>
+                    <ProjectWebGLCard url="https://itch.io/embed-upload/6410898?color=333333" width="960" height="650"/>
 
                 </Col>
 
@@ -45,18 +46,15 @@ export default function ReturnToFrogge() {
                     <ProjectTextCard>
                         <h2>Team Members</h2>
                         <ul>
-                            <li>Jared (Designer)</li>
-                            <li>Cameron (Designer)</li>
-                            <li>Travers (Programmer)</li>
-                            <li>Jashon (Programmer)</li>
-                            <li>Scott (Tech Art)</li>
-                            <li>Hunter (Audio)</li>
-                            <li>Shan (Artist)</li>
-                            <li>Arlena (Artist)</li>
-                            <li>Lachlan (Artist)</li>
-                            <li>Max (Artist)</li>
-                            <li>Sara (Artist)</li>
-                            <li>Andy (Artist)</li>
+                            <li>Chris Knowles (Designer)</li>
+                            <li>Josh Grant (Designer)</li>
+                            <li>Scott Thomson (Tech Artist)</li>
+                            <li>Jashon Brown (Programmer)</li>
+                            <li>Gareth Fox (Programmer)</li>
+                            <li>Rachel Khan (Artist)</li>
+                            <li>Sara Ransley (Artist)</li>
+                            <li>Arlena Hosking (Artist)</li>
+                            <li>Lauryn Dorne (Artist)</li>
                         </ul>
                     </ProjectTextCard>
 
@@ -67,7 +65,6 @@ export default function ReturnToFrogge() {
                         <ul>
                             <li>Unity</li>
                             <li>C#</li>
-                            <li>Inky</li>
                         </ul>
                     </ProjectTextCard>
 

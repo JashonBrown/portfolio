@@ -2,7 +2,6 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from "../ProjectWebGLCard";
 import ProjectYoutubeEmbedCard from "../ProjectYoutubeEmbedCard";
 import ItchDownload from "../ItchDownload";
@@ -27,7 +26,7 @@ export default function AreYaWinningSon() {
                         </p>
                         <p>
                             As is tradition in game jams, we over scoped the art and were in a desperate rush at the end.
-                            Worth it though as we were the runners up in the people choice category.
+                            Everything came together in the end and we were the runners up in the people choice category.
                         </p>
                     </ProjectTextCard>
 
@@ -49,12 +48,12 @@ export default function AreYaWinningSon() {
                     <ProjectTextCard>
                         <h2>Team Members</h2>
                         <ul>
-                            <li>Lauryn (Artist)</li>
-                            <li>Arlena (Artist)</li>
-                            <li>Jashon (Programmer)</li>
-                            <li>Jiaheng (Programmer)</li>
-                            <li>Gareth (Programmer)</li>
-                            <li>Hamish (Audio)</li>
+                            <li>Lauryn Dorne (Artist)</li>
+                            <li>Arlena Hosking (Artist)</li>
+                            <li>Jashon Brown (Programmer)</li>
+                            <li>Jiaheng Wang (Programmer)</li>
+                            <li>Gareth Fox (Programmer)</li>
+                            <li>Hamish Oliver (Audio)</li>
                         </ul>
                     </ProjectTextCard>
 

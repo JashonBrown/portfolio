@@ -2,9 +2,7 @@ import '../../styles/Project.scss';
 import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
-import ProjectVideoCard from '../ProjectVideoCard';
 import ProjectWebGLCard from "../ProjectWebGLCard";
-import ProjectYoutubeEmbedCard from "../ProjectYoutubeEmbedCard";
 import ItchDownload from "../ItchDownload";
 
 export default function BillsBussinBuffet() {
@@ -16,23 +14,28 @@ export default function BillsBussinBuffet() {
 
                     {/* ------ Row 1 ------ */}
 
-                    <Row>
-                        <ProjectTextCard>
-                            <h2>Bills Bussin' Buffet</h2>
-                            <h5>Status: Released (2022)</h5>
-                            <br />
-                            <h3>Summary</h3>
-                            <p>
-                                Our submission for Kiwi Jam 2022
-                            </p>
-                        </ProjectTextCard>
-                    </Row>
+                    <ProjectTextCard>
+                        <h2>Bills Bussin' Buffet</h2>
+                        <h5>Status: Released (2022)</h5>
+                        <br />
+                        <h3>Summary</h3>
+                        <p>
+                            Myself and a group of colleagues got together to join Kiwi Jam 2022.
+                        </p>
+                        <p>
+                            The theme was <i>"Together"</i> so our game is about getting together with some bussin babes at a diner.
+                            The game is narrative based with branching dialogue leading to 16 different endings.
+                        </p>
+                        <p>
+                            Most of the artists drew and then created the dialogue for their characters.
+                            Everyone split off to write their narrative and when we all joined back up, it was a nightmare weaving them together.
+                        </p>
+
+                    </ProjectTextCard>
 
                     {/* ------ Row 2 ------ */}
 
-                    <Row>
-                        <ProjectWebGLCard url="https://itch.io/embed-upload/6221691?color=333333" width="960" height="650"/>
-                    </Row>
+                    <ProjectWebGLCard url="https://itch.io/embed-upload/6221691?color=333333" width="960" height="650"/>
 
                 </Col>
 
@@ -46,18 +49,18 @@ export default function BillsBussinBuffet() {
                     <ProjectTextCard>
                         <h2>Team Members</h2>
                         <ul>
-                            <li>Jared (Designer)</li>
-                            <li>Cameron (Designer)</li>
-                            <li>Travers (Programmer)</li>
-                            <li>Jashon (Programmer)</li>
-                            <li>Scott (Tech Art)</li>
-                            <li>Hunter (Audio)</li>
-                            <li>Shan (Artist)</li>
-                            <li>Arlena (Artist)</li>
-                            <li>Lachlan (Artist)</li>
-                            <li>Max (Artist)</li>
-                            <li>Sara (Artist)</li>
-                            <li>Andy (Artist)</li>
+                            <li>Jared Bakker (Designer)</li>
+                            <li>Cameron Edwards (Designer)</li>
+                            <li>Travers Cole (Programmer)</li>
+                            <li>Jashon Brown (Programmer)</li>
+                            <li>Scott Thomson (Tech Art)</li>
+                            <li>Hunter Craig (Audio)</li>
+                            <li>Shan Singleton (Artist)</li>
+                            <li>Arlena Hosking (Artist)</li>
+                            <li>Lachlan Walsh (Artist)</li>
+                            <li>Max Skerrett (Artist)</li>
+                            <li>Sara Ransley (Artist)</li>
+                            <li>Andy Christensen (Artist)</li>
                         </ul>
                     </ProjectTextCard>
 

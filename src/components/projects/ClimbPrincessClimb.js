@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ItchDownload from "../ItchDownload";
 
 export default function ClimbPrincessClimb() {
     return (
@@ -24,6 +25,8 @@ export default function ClimbPrincessClimb() {
                             </ProjectTextCard>
                         </Col>
                     </Row>
+
+                    <ItchDownload src="456903"/>
 
                     <Row>
                         <Col md={4}>
@@ -84,14 +87,6 @@ export default function ClimbPrincessClimb() {
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
-
-                    <ProjectTextCard>
-                        <a target="_blank" href="https://itsnotagoodtime.itch.io/climb-princess-climb" rel="noreferrer">
-                            <h2>Play here!</h2>
-                        </a>
-                    </ProjectTextCard>
-
-                    {/* ------ */}
 
                     <ProjectImageCard src="/images/climb-princess-climb/card-climb-princess-climb.png" />
 

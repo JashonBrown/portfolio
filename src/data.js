@@ -5,21 +5,21 @@ export const projects =
     // -------- Featured --------
     {
         key:"untamed-isles",
-        description:"Untamed Isles",
+        description:"Monster taming MMO worked on whilst at Phat Loot Studios",
         image: "/images/untamed-isles/card-untamed-isles.png",
         slug: "untamed-isles",
         group: "Featured",
     },
     {
         key:"are-ya-winning-son",
-        description:"Are ya winning son?",
+        description:"Entry to Aotearoa Game Jam 2022",
         image: "/images/are-ya-winning-son/card-are-ya-winning-son.png",
         slug: "are-ya-winning-son",
         group: "Featured",
     },
     {
         key:"bills-bussin-buffet",
-        description:"Bill's Bussin' Buffet",
+        description:"Entry to the game jam Kiwi Jam 2022",
         image: "/images/bills-bussin-buffet/card-bills-bussin-buffet.png",
         slug: "bills-bussin-buffet",
         group: "Featured",
@@ -47,14 +47,14 @@ export const projects =
     },
     {
         key:"why-does-no-one-love-me",
-        description:"Entry to the Game Developers League (GDL) Christmas game jam",
+        description:"Entry to the Game Developers League Christmas game jam",
         image: "/images/why-does-no-one-love-me/card-why-does-no-one-love-me.png",
         slug: "why-does-no-one-love-me",
         group: "Featured",
     },
     {
         key:"climb-princess-climb",
-        description:"Entry to the Game Developers League (GDL) July game jam ",
+        description:"Entry to the Game Developers League July game jam ",
         image: "/images/climb-princess-climb/card-climb-princess-climb.png",
         slug: "climb-princess-climb",
         group: "Featured",
@@ -64,7 +64,7 @@ export const projects =
     // -------- Other --------
     {
         key:"return-to-frogge",
-        description:"Return to Frogge",
+        description:"Entry to an internal Phat Loot game jam",
         image: "/images/return-to-frogge/card-return-to-frogge.png",
         slug: "return-to-frogge",
         group: "Other",
