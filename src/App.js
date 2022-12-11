@@ -25,6 +25,9 @@ import GrandmasSpecialBoy from "./components/projects/GrandmasSpecialBoy";
 import Visceral from "./components/projects/Visceral";
 import FlappyKyata from "./components/projects/FlappyKyata";
 import AreYaWinningSon from "./components/projects/AreYaWinningSon";
+import BillsBussinBuffet from "./components/projects/BillsBussinBuffet";
+import ReturnToFrogge from "./components/projects/ReturnToFrogge";
+import UntamedIsles from "./components/projects/UntamedIsles";
 
 // import PortfolioSite from "./components/projects/old/PortfolioSite";
 // import CatCatMagicAttack from "./components/projects/old/CatCatMagicAttack";
@@ -68,6 +71,9 @@ export default function App() {
               <Route path="/projects/visceral" exact component={() => <Visceral />} />
               <Route path="/projects/flappy-kyata" exact component={() => <FlappyKyata />} />
               <Route path="/projects/are-ya-winning-son" exact component={() => <AreYaWinningSon />} />
+              <Route path="/projects/bills-bussin-buffet" exact component={() => <BillsBussinBuffet />} />
+              <Route path="/projects/return-to-frogge" exact component={() => <ReturnToFrogge />} />
+              <Route path="/projects/untamed-isles" exact component={() => <UntamedIsles />} />
 
               {/* OLD */}
               {/*<Route path="/projects/givey" exact component={() => <Givey />} />*/}

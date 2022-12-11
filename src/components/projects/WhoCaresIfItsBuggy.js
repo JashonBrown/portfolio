@@ -3,6 +3,8 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectWebGLCard from "../ProjectWebGLCard";
+import ItchDownload from "../ItchDownload";
 
 export default function WhoCaresIfItsBuggy() {
     return (
@@ -12,18 +14,20 @@ export default function WhoCaresIfItsBuggy() {
                 <Col md={9}>
 
                     {/* ------ Row 1 ------ */}
-                    <Row>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Who cares if it's buggy? Just ship it!</h2>
-                                <h5>Status: Released (2019)</h5>
-                                <br />
-                                <h3>Summary</h3>
-                                <p>'Who cares if it's buggy? Just ship it!' is a game developed during Ludum Dare 45 (Game Jam). Our team of 4 had 3 days to create a game from scratch related to the theme <i>"Start with nothing"</i>.</p>
-                                <p>Once the submission phase concludes, participants judge each others entries scoring them out of 10 for each of the following areas: Fun, Theme, Humor, Mood, Audio, Graphics and Overall.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
+                    <Col>
+                        <ProjectTextCard>
+                            <h2>Who cares if it's buggy? Just ship it!</h2>
+                            <h5>Status: Released (2019)</h5>
+                            <br />
+                            <h3>Summary</h3>
+                            <p>'Who cares if it's buggy? Just ship it!' is a game developed during Ludum Dare 45 (Game Jam). Our team of 4 had 3 days to create a game from scratch related to the theme <i>"Start with nothing"</i>.</p>
+                            <p>Once the submission phase concludes, participants judge each others entries scoring them out of 10 for each of the following areas: Fun, Theme, Humor, Mood, Audio, Graphics and Overall.</p>
+                        </ProjectTextCard>
+                    </Col>
+
+                    <Col>
+                        <ProjectWebGLCard url="https://itch.io/embed-upload/1695301?color=333333" width="960" height="650"/>
+                    </Col>
 
                     {/* ------ Row 2 ------ */}
                     <Row>
@@ -73,7 +77,7 @@ export default function WhoCaresIfItsBuggy() {
                             <ProjectTextCard>
                                 <h2>Learning</h2>
                                 <h5>(Planning)</h5>
-                                <p>We struggled alot to come up with an initial idea. Eventually we decided to just pick an idea and go with it. However, due to this poor planning we ended up wasting alot of time changing ideas later.</p>
+                                <p>We struggled a lot to come up with an initial idea. Eventually we decided to just pick an idea and go with it. However, due to this poor planning we ended up wasting alot of time changing ideas later.</p>
                                 <p>We won't rush ourselves during our planning again.</p>
                             </ProjectTextCard>
                         </Col>
@@ -116,6 +120,9 @@ export default function WhoCaresIfItsBuggy() {
                     </ProjectTextCard>
 
                     <ProjectImageCard src="/images/who-cares-if-its-buggy/banner-who-cares-if-its-buggy.png" />
+
+                    {/* ------ */}
+                    <ItchDownload src="495056"/>
                 </Col>
             </Row>
         </div>

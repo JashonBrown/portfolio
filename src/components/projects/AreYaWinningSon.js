@@ -13,113 +13,64 @@ export default function AreYaWinningSon() {
             <Row>
                 {/* ------ Left Column ------ */}
                 <Col md={9}>
-                    <Row>
-                        <ProjectWebGLCard url="1541161"/>
-                        {/*<ItchDownload src="https://shonnyy.itch.io/are-ya-winning-son"/>*/}
-                    </Row>
-                    <Row>
-                        <ProjectYoutubeEmbedCard title="Test" src={"zXl_KuPrGQc"}/>
-                    </Row>
-
 
                     {/* ------ Row 1 ------ */}
-                    <Row>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Are Ya Winning Son?</h2>
-                                <h5>Status: Released (2019)</h5>
-                                <br />
-                                <h3>Summary</h3>
-                                <p>'Climb Princess Climb' is a game developed during GDL July Jam (Game Jam). Our team of 3 had 3 days to create a game from scratch related to the theme <i>"Dungeons"</i>.</p>
-                                <p>Once the submission phase concludes, participants judge each others entries scoring them out of 10 for each of the following areas: Fun, Theme, Polish, Creativity and Overall.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
 
-                    <Row>
-                        <Col md={4}>
-                            <ProjectTextCard>
-                                <h2>Gameplay</h2>
-                                <p>Players attempt to rescue princesses and escape a dungeon by swinging their way out on a chain.</p>
-                                <p>As you venture higher through the dungeon you encounter enemies aswell as the growing difficulty of managing more and more rescuees.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col md={4}>
-                            <ProjectTextCard>
-                                <h2>Results</h2>
-                                <p>Our game was extremely well received and we won first place :D</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Technologies</h2>
-                                <ul>
-                                    <li>Unity</li>
-                                    <li>C#</li>
-                                    <li>DynamoDB (AWS)</li>
-                                </ul>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Reflection</h2>
-                                <p>We were all blown away with how well the game turned out and how much everyone enjoyed it.</p>
-                                <p>The entire game jam went very smooth for us and we ended up only needing 2 days to complete the game and used the 3rd day to relax and enjoy playing it.</p>
-                                <p>We were very fortunate as all of our ideas and prototypes performed exactly as we hoped and everything came together easily.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Post Game Jam</h2>
-                                <p>After the game jam concluded, we added a few extra levels and timed leaderboards.</p>
-                                <p>Many of our friends competed against eachother in speedruns and it was incredible to see all the tricks and strategies they discovered to speed up their times.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
+                    <ProjectTextCard>
+                        <h2>Are Ya Winning Son?</h2>
+                        <h5>Status: Released (2022)</h5>
+                        <br />
+                        <h3>Summary</h3>
+                        <p>
+                            Developed for the 48 hour Aotearoa Game Jam 2022, 'Are ya winning son?' is a game about becoming your dad.
+                            The theme was <i>"Transition"</i> and our game is about the transition from youth to adulthood.
+                        </p>
+                        <p>
+                            As is tradition in game jams, we over scoped the art and were in a desperate rush at the end.
+                            Worth it though as we were the runners up in the people choice category.
+                        </p>
+                    </ProjectTextCard>
 
-                    <Row>
-                        <Col md={6}>
-                            <ProjectTextCard>
-                                <h2>Future Plans</h2>
-                                <p>Due to how enjoyable the game was, we made an effort to expand it. However during our attempts to move the game to mobile, we were unable to capture the same experience with a touch screen.</p>
-                                <p>We are open to reigniting this idea in the future but for now the project has been put on ice.</p>
-                            </ProjectTextCard>
-                        </Col>
-                        <Col>
-                            <ProjectVideoCard src="/videos/climb-princess-climb/gameplay.mp4" type="video/mp4"/>
-                        </Col>
-                    </Row>
+                    {/* ------ Row 2 ------ */}
+                    <ProjectWebGLCard url="https://itch.io/embed-upload/5910453?color=333333" width="960" height="650"/>
+
+                    {/* ------ Row 3 ------ */}
+                    <ProjectYoutubeEmbedCard src={"zXl_KuPrGQc"}/>
+
                 </Col>
 
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
 
-                    <ProjectTextCard>
-                        <a target="_blank" href="https://itsnotagoodtime.itch.io/climb-princess-climb" rel="noreferrer">
-                            <h2>Play here!</h2>
-                        </a>
-                    </ProjectTextCard>
-
-                    {/* ------ */}
-
-                    <ProjectImageCard src="/images/climb-princess-climb/card-climb-princess-climb.png" />
+                    <ProjectImageCard src="/images/are-ya-winning-son/card-are-ya-winning-son.png" />
 
                     {/* ------ */}
 
                     <ProjectTextCard>
                         <h2>Team Members</h2>
                         <ul>
-                            <li>Lauryn Dorne (Artist)</li>
-                            <li>Jake Dorne (Programmer)</li>
-                            <li>Jashon Brown (Programmer)</li>
+                            <li>Lauryn (Artist)</li>
+                            <li>Arlena (Artist)</li>
+                            <li>Jashon (Programmer)</li>
+                            <li>Jiaheng (Programmer)</li>
+                            <li>Gareth (Programmer)</li>
+                            <li>Hamish (Audio)</li>
                         </ul>
                     </ProjectTextCard>
 
                     {/* ------ */}
-                    
-                    <ProjectImageCard src="/images/climb-princess-climb/banner-climb-princess-climb.png" />
+
+                    <ProjectTextCard>
+                        <h2>Technologies</h2>
+                        <ul>
+                            <li>Unity</li>
+                            <li>C#</li>
+                        </ul>
+                    </ProjectTextCard>
+
+                    {/* ------ */}
+
+                    <ItchDownload src="1541161"/>
                 </Col>
             </Row>
         </div>

@@ -3,6 +3,8 @@ import {Row, Col} from 'react-bootstrap';
 import ProjectTextCard from '../ProjectTextCard';
 import ProjectImageCard from '../ProjectImageCard';
 import ProjectVideoCard from '../ProjectVideoCard';
+import ProjectWebGLCard from "../ProjectWebGLCard";
+import ItchDownload from "../ItchDownload";
 
 export default function WhyDoesNoOneLoveMe() {
     return (
@@ -12,18 +14,20 @@ export default function WhyDoesNoOneLoveMe() {
                 <Col md={9}>
 
                     {/* ------ Row 1 ------ */}
-                    <Row>
-                        <Col>
-                            <ProjectTextCard>
-                                <h2>Why does no one love me?</h2>
-                                <h5>Status: Released (2019)</h5>
-                                <br />
-                                <h3>Summary</h3>
-                                <p>'Why does no one love me?' is a game developed during GDL Game Jam 28. Our team of 3 had 3 days to create a game from scratch related to the theme <i>"Zombies & Christmas"</i>.</p>
-                                <p>Once the submission phase concludes, participants judge each others entries scoring them out of 10 for each of the following areas: Polish, Fun, Creativity, Theme and Overall.</p>
-                            </ProjectTextCard>
-                        </Col>
-                    </Row>
+                    <Col>
+                        <ProjectTextCard>
+                            <h2>Why does no one love me?</h2>
+                            <h5>Status: Released (2019)</h5>
+                            <br />
+                            <h3>Summary</h3>
+                            <p>'Why does no one love me?' is a game developed during GDL Game Jam 28. Our team of 3 had 3 days to create a game from scratch related to the theme <i>"Zombies & Christmas"</i>.</p>
+                            <p>Once the submission phase concludes, participants judge each others entries scoring them out of 10 for each of the following areas: Polish, Fun, Creativity, Theme and Overall.</p>
+                        </ProjectTextCard>
+                    </Col>
+
+                    <Col>
+                        <ProjectWebGLCard url="https://itch.io/embed-upload/1841337?color=333333" width="1120" height="680"/>
+                    </Col>
 
                     {/* ------ Row 2 ------ */}
                     <Row>
@@ -87,13 +91,6 @@ export default function WhyDoesNoOneLoveMe() {
                 {/* ------ Right Column ------ */}
                 <Col md={3}>
 
-                    {/* ------ Row 1 ------ */}
-                    <ProjectTextCard>
-                        <a target="_blank" href="https://itsnotagoodtime.itch.io/why-does-no-on-love-me" rel="noreferrer">
-                            <h2>Play here!</h2>
-                        </a>
-                    </ProjectTextCard>
-
                     {/* ------ Row 2 ------ */}
                     <ProjectImageCard src="/images/why-does-no-one-love-me/card-why-does-no-one-love-me.png" />
 
@@ -109,6 +106,9 @@ export default function WhyDoesNoOneLoveMe() {
 
                     {/* ------ Row 4 ------ */}
                     <ProjectImageCard src="/images/why-does-no-one-love-me/banner-why-does-no-one-love-me.png" />
+
+                    {/* ------ */}
+                    <ItchDownload src="535645"/>
                 </Col>
             </Row>
         </div>
