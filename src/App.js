@@ -19,7 +19,6 @@ import Experiments from "./components/projects/Experiments";
 import Simpli from "./components/projects/Simpli";
 import OneInOneOut from "./components/projects/OneInOneOut";
 import NetworkingLibrary from "./components/projects/NetworkingLibrary";
-import Screeps from "./components/projects/old/Screeps";
 import Nuwave from "./components/projects/Nuwave";
 import GrandmasSpecialBoy from "./components/projects/GrandmasSpecialBoy";
 import Visceral from "./components/projects/Visceral";
@@ -29,6 +28,7 @@ import BillsBussinBuffet from "./components/projects/BillsBussinBuffet";
 import ReturnToFrogge from "./components/projects/ReturnToFrogge";
 import UntamedIsles from "./components/projects/UntamedIsles";
 
+// import Screeps from "./components/projects/old/Screeps";
 // import PortfolioSite from "./components/projects/old/PortfolioSite";
 // import CatCatMagicAttack from "./components/projects/old/CatCatMagicAttack";
 // import Givey from "./components/projects/old/Givey";
