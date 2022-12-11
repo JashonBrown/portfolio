@@ -65,7 +65,6 @@ export default function App() {
               <Route path="/projects/simpli" exact component={() => <Simpli />} />
               <Route path="/projects/one-in-one-out" exact component={() => <OneInOneOut />} />
               <Route path="/projects/networking-library" exact component={() => <NetworkingLibrary />} />
-              <Route path="/projects/screeps" exact component={() => <Screeps />} />
               <Route path="/projects/nuwave" exact component={() => <Nuwave />} />
               <Route path="/projects/grandmas-special-boy" exact component={() => <GrandmasSpecialBoy />} />
               <Route path="/projects/visceral" exact component={() => <Visceral />} />
@@ -76,6 +75,7 @@ export default function App() {
               <Route path="/projects/untamed-isles" exact component={() => <UntamedIsles />} />
 
               {/* OLD */}
+              {/*<Route path="/projects/screeps" exact component={() => <Screeps />} />*/}
               {/*<Route path="/projects/givey" exact component={() => <Givey />} />*/}
               {/*<Route path="/projects/portfolio-site" exact component={() => <PortfolioSite />} />*/}
               {/*<Route path="/projects/cat-cat-magic-attack" exact component={() => <CatCatMagicAttack />} />*/}
