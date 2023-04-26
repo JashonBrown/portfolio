@@ -31,7 +31,7 @@ export default function AreYaWinningSon() {
                     </ProjectTextCard>
 
                     {/* ------ Row 2 ------ */}
-                    <ProjectWebGLCard url="https://itch.io/embed-upload/5910453?color=333333" width="960" height="650"/>
+                    <ProjectWebGLCard url="https://itch.io/embed-upload/7738244?color=333333" width="960" height="650"/>
 
                     {/* ------ Row 3 ------ */}
                     <ProjectYoutubeEmbedCard src={"zXl_KuPrGQc"}/>

@@ -1,7 +1,7 @@
 import '../styles/ProjectWebGLCard.scss';
 import AutoScale from './AutoScale';
 
-// Format: <ProjectWebGLCard url='https://itch.io/embed-upload/project_id'/> where the url is the direct link url from the "Embed Game" page on itch.io. 
+// Format: <ProjectWebGLCard url='https://itch.io/embed-upload/project_id'/> where the url is the direct link url from the "Embed Game" page on itch.io ("Edit Game" -> Distribute).
 // Specify a non 16:9 aspect ratio using "aspectRatio = '16 / 9'"
 // Recommend setting your itch.io webgl resolution to 1920 * 1130, otherwise pass custom resolution into component
 
